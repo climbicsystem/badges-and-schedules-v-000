@@ -10,6 +10,3 @@ def batch_badge_creator(speakers)
   end
   binding.pry
 end
-
-speakers = {"ada", "bill", "charles"}
-batch_badge_creator(speakers)
