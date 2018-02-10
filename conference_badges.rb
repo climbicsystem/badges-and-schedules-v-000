@@ -1,5 +1,4 @@
 # Write your code here.
-require 'pry'
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
@@ -19,8 +18,5 @@ end
 def printer(speakers)
   badge_array = batch_badge_creator(speakers)
   room_array = assign_rooms(speakers)
-  batch_badge_creator(speakers)
-  assign_rooms(speakers)
-  printer(speakers)
-  binding.pry
+
 end
