@@ -24,5 +24,3 @@ def printer(speakers)
   printer(speakers)
   binding.pry
 end
-
-speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
